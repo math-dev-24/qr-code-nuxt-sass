@@ -1,75 +1,33 @@
-# Nuxt Minimal Starter
+# QR Code générator SASS
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+# introduction
+This is a SASS version of the QR Code generator made with Nuxt 3 and Supabase.
 
-## Setup
-
-Make sure to install dependencies:
-
+# Build Setup
 ```bash
-# npm
-npm install
+# clone repository
+$ git clone https://github.com/math-dev-24/qr-code-nuxt-sass.git
 
-# pnpm
-pnpm install
+# navigate into the directory
+$ cd QrCode-SASS
 
-# yarn
-yarn install
+# install dependencies
+$ npm install
 
-# bun
-bun install
+# start dev server
+$ npm run dev
+
+# build for production
+$ npm run build
+
+# generate static project
+$ npm run generate
 ```
 
-## Development Server
+# Dependencies
 
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+- Nuxt 3 (https://nuxt.com/)
+- Nuxt UI (https://nuxt-ui.github.io/package/)
+- Zod (https://github.com/colinhacks/zod)
+- Pinia (https://pinia.vuejs.org/)
+- @nuxtjs/supabase (https://supabase.nuxtjs.org/)
